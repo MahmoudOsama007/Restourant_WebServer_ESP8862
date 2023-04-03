@@ -5,7 +5,7 @@
 //LCD 
 #include<Wire.h>
 #include<Liquidcrystal_I2C.h>
-Liquidcrystal_I2C lcd(0x3f,16,2)
+Liquidcrystal_I2C lcd(0x3f,16,2) //lcd(0x27,16,2) 0x27--> Address   16,2-->16*2 lcd type
 
 //Buzzer
 #define table_1   D7 
