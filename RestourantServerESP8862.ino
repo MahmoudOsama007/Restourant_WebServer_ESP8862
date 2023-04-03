@@ -122,7 +122,7 @@ void handleRoot(){
     lcd.print(" Your Order Is Finished ");
     delay(5000);
     digitalWrite(tabl_1,LOW);
-    
+    lcd.clear();
     
     }
     
@@ -133,6 +133,7 @@ void handleRoot(){
     lcd.print(" Your Order Is Finished ");
     delay(5000);
     digitalWrite(tabl_2,LOW);
+    lcd.clear();
     }
     
     // ************ tabl_3 ************
@@ -142,7 +143,7 @@ void handleRoot(){
     lcd.print(" Your Order Is Finished ");
     delay(5000);
     digitalWrite(tabl_3,LOW);
-    
+    lcd.clear();
     }
 
    // ************ tabl_4 ************
@@ -153,7 +154,7 @@ void handleRoot(){
     lcd.print(" Your Order Is Finished ");
     delay(5000);
     digitalWrite(tabl_4,LOW);
-    
+    lcd.clear();
     
     }
   
