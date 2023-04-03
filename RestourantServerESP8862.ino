@@ -119,6 +119,7 @@ void handleRoot(){
   
   if(server.argName(0)=="table_1"){
     digitalWrite(tabl_1,HIGH);
+    lcd.setCursor(0,1);
     lcd.print(" Your Order Is Finished ");
     delay(5000);
     digitalWrite(tabl_1,LOW);
@@ -130,6 +131,7 @@ void handleRoot(){
   
   if(server.argName(0)=="tabl_2"){
    digitalWrite(tabl_2,HIGH);
+    lcd.setCursor(0,1);
     lcd.print(" Your Order Is Finished ");
     delay(5000);
     digitalWrite(tabl_2,LOW);
@@ -140,6 +142,7 @@ void handleRoot(){
     
     if(server.argName(0)=="tabl_3"){
     digitalWrite(tabl_3,HIGH);
+    lcd.setCursor(0,1);
     lcd.print(" Your Order Is Finished ");
     delay(5000);
     digitalWrite(tabl_3,LOW);
@@ -151,6 +154,7 @@ void handleRoot(){
     if(server.argName(0)=="tabl_4"){
     
     digitalWrite(tabl_4,HIGH);
+    lcd.setCursor(0,1);
     lcd.print(" Your Order Is Finished ");
     delay(5000);
     digitalWrite(tabl_4,LOW);
